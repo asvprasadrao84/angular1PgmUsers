@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   }
 
   firstClick() {
-    // alert("you clicked me");
-    console.log(this.data.getUsers());
+    alert("you clicked me");
+    // console.log(this.data.getUsers());
   }
 }
